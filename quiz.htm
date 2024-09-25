@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" type="text/css" href="quizstyle.css">
+</head>
+<body>
+  <main class="quiz-container" aria-labelledby="quiz-title">
+    <h1 id="quiz-title">Quiz App</h1>
+    <section id="question-container">
+      <p id="question-text" aria-live="polite"></p>
+      <div id="answer-buttons" role="group" aria-labelledby="question-text"></div>
+    </section>
+    <div id="controls-container">
+      <button id="start-button" aria-label="Start the quiz">Start Quiz</button>
+      <div id="timer-container">
+        <span id="timer-text">Time Left: <span id="timer">0</span></span>
+      </div>
+    </div>
+  </main>
+  <script src="jss.js" defer></script>
+</body>
+</html>
